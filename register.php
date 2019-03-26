@@ -165,7 +165,7 @@ if (isset($_POST['inscription'])) {
                         </div>
 
                     </form>
-                    <span class="right-align">Vous avez déjà un compte ? <a href="login.php" class="">connectez-vous </a></span>
+                    <span class="right-align">Vous avez déjà un compte ? <a href="index.php" class="">connectez-vous </a></span>
 
                     <?php
                     if (isset($erreur)) {

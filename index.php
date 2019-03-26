@@ -7,7 +7,7 @@
 		$mailCo = htmlspecialchars($_POST['mailCo']);
 		$mdpCo = $_POST['mdpCo'];
         
-        //On vérifie que les deux champs sont complété
+    //On vérifie que les deux champs sont complété
 		if(!empty($mailCo) AND !empty($mdpCo))
 		{
 			$user = connection($mailCo,$mdpCo);
